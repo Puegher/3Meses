@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono2.png">
+    <title>Pokemon: Red fire</title>
+</head>
+
+<body>
+    <div class="conte">
+        <header>
+            <div class="logo">
+                <img src="img/logo2.png">
+            </div>
+
+            <h1>Pokemon: Red Fire</h1>
+
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="listas.html">Lugares</a></li>
+                <li><a href="tablas.html">Pokemones</a></li>
+                <li><a href="audio.html">Consejos</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </header>
+
+        <div class="formulario">
+
+            <form class="contacto">
+                <h2>Contactanos</h2>
+
+                <label for="ape">Apellido</label>
+                <input type="text" name="ape" id="apellido">
+
+                <label for="nom">Nombre</label>
+                <input type="text" name="nom" id="nombre">
+                <br>
+                <label for="num">Telefono</label>
+                <input type="number" name="num" id="telefono">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Tu comentario"></textarea>
+                <br>
+
+                <input type="reset" value="ENVIAR">
+
+                <div class="info">
+                    <ul>
+                        <li><a href="www.whatsapp.com/Matias_P"><img src="img/iconos/whatsapp.png"></a></li>
+                        <li><a href="https://www.instagram.com/PokemonESP/"><img src="img/iconos/instagram.png"></a></li>
+                        <li><a href="MatiasP@gmail.com"><img src="img/iconos/email.png"></a></li>
+                        <li><a href="https://discord.com/channels/@Pokemon"><img src="img/iconos/discord.png"></a></li>
+                        <li><a href="https://www.youtube.com/user/PokemonOficialES"><img src="img/iconos/youtube.png"></a></li>
+                        <li><a href="https://twitter.com/Pokemon_ES_ESP"><img src="img/iconos/gorjeo.png"></a></li>
+                        <li><a href="https://www.tiktok.com/@pokemon"><img src="img/iconos/tik-tok.png"></a></li>
+                    </ul>
+                </div>
+            </form>
+
+            <form class="encuesta">
+                <h2>Encuesta</h2>
+
+                <label for="eleccion">Te gusto la pagina?</label>
+                <input type="radio" name="eleccion" id="si"><label>Si</label>
+                <input type="radio" name="eleccion" id="no"><label>No</label>
+                <hr>
+
+                <label for="check">Que te parecio la pagina?</label>
+                <br>
+                <input type="checkbox" name="aburrida" id="chek"><label for="check">Aburrida</label>
+                <input type="checkbox" name="interesante" id="chek"><label for="check">Interesante</label>
+                <br>
+                <input type="checkbox" name="explicativa" id="chek"><label for="check">Explicativa</label>
+                <input type="checkbox" name="informativa" id="chek"><label for="check">Informativa</label>
+                <hr>
+
+                <label for="pokemon">Inicial favorito?</label>
+                <select name="inicial" id="pokemon">
+                    <option>Bulbasaur</option>
+                    <option>Charmander</option>
+                    <option>Squirtle</option>
+                </select>
+                <hr>
+                <label for="poke_fav">Pokemon favorito?</label>
+                <br>
+                <input list="favoritos">
+                <datalist id="favoritos">
+                    <option>Gengar</option>
+                    <option>Alakazam</option>
+                    <option>Charizard</option>
+                    <option>Blastoise</option>
+                    <option>Venusaur</option>
+                    <option>Lapras</option>
+                    <option>Eevee</option>
+                    <option>Snorlax</option>
+                    <option>Metapod</option>
+                    <option>Mankey</option>
+                    <option>Jolteon</option>
+                    <option>Ditto</option>
+                    <option>Nidoking</option>
+                    <option>Tauros</option>
+                    <option>Jigglypuff</option>
+                    <option>Machoke</option>
+                    <option>Arcanine</option>
+                    <option>Oddish</option>
+                    <option>Magnemite</option>
+                    <option>Pikachu</option>
+                </datalist>
+                <hr>
+
+                <label for="gym">Mejor lider de gimnacio del juego?</label>
+                <select name="gym" id="pokemon">
+                    <option>Brock</option>
+                    <option>Misty</option>
+                    <option>Giovanni</option>
+                    <option>Lt. Surge</option>
+                    <option>Erika</option>
+                    <option>Sabrina</option>
+                    <option>Koga</option>
+                    <option>Blane</option>
+                </select>
+                <hr>
+
+                <label for="pokedex">Completaste la pokedex alguna vez?</label>
+                <input type="radio" name="pokedex" id="si"><label>Si</label>
+                <input type="radio" name="pokedex" id="no"><label>No</label>
+                <br>
+                <br>
+
+                <button type="reset">Enviar</button>
+
+            </form>
+
+        </div>
+
+
+        <footer>
+            <p>Esta pagina web fue diseñada y desarrolla por Matias Puegher para la clase de Ferraro en la
+                materia de Diseño Web Estatico 2023</p>
+            <p>Para mas informacio revisa la pagina oficial de pokemon: <a href="https://www.pokemon.com/es">CLICK
+                    AQUI</a></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

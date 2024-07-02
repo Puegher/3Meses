@@ -1,0 +1,420 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: white;
+}
+
+body {
+    margin: 0%;
+    background-image: url(img/fondo3.jpg);
+    background-size: 100%;
+}
+
+.conte {
+    margin: 3% 6%;
+    padding: 2%;
+    background-color: rgba(126, 126, 126, 0.808);
+    border-radius: 50px;
+    box-shadow: 0px 5px 50px black;
+    backdrop-filter: blur(7px);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.imagen {
+
+    display: flex;
+    justify-content: center;
+}
+
+img,
+video {
+    border: black solid;
+    border-radius: 3%;
+    margin: 0.5% 1%;
+}
+
+.curioso {
+    background-color: rgba(82, 82, 82, 0.808);
+    margin: auto;
+    padding: 1%;
+    border-radius: 10px;
+    border: rgb(46, 46, 46) solid;
+}
+
+.logo img {
+    margin: 0px auto;
+    width: 40%;
+    display: block;
+    border: none;
+    border-radius: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*menu*/
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    width: 97%;
+    max-width: 100%;
+    margin: auto;
+    border: black solid;
+    border-radius: 10px;
+    top: 1;
+    position: sticky;
+    z-index: 1;
+
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 69px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 230px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 0%;
+    text-align: center;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.651);
+    color: black;
+
+}
+
+.sub-menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: auto;
+
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    border: rgb(204, 204, 204) dotted;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*listas*/
+
+dd {
+    text-align: justify;
+    margin-bottom: 1.8%;
+}
+
+dd img {
+    width: 13%;
+    margin: 1%;
+    border-radius: 50%;
+}
+
+dd img:hover {
+    transform: scale(200%);
+}
+
+ol{
+    margin: 3%;
+}
+
+.liders {
+    position: absolute;
+    margin-right: 5%;
+    transform: translateY(-150%);
+}
+
+.liders img {
+    float: right;
+    
+}
+
+.liders .botones {
+    text-align: center;
+    display: flex; 
+    transform: translateX(135%) translateY(1000%);
+    margin-top: 1%;
+}
+
+#prevBtn{
+    margin-right: 50%;
+}
+
+/*tablas*/
+
+table th button {
+    float: right;
+}
+
+table {
+    width: 98%;
+    max-width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: black solid;
+    color: black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th img {
+    width: 10%;
+    border: none;
+}
+
+td img {
+    width: 70%;
+    filter: drop-shadow(20px 10px 5px black);
+    border: none;
+}
+
+td img:hover {
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+#planta thead,
+#bicho thead {
+    background-color: rgb(13, 117, 13);
+}
+
+#planta tbody,
+#bicho tbody {
+    background: rgb(0, 204, 58);
+    background: linear-gradient(180deg, rgba(0, 204, 58, 1) 0%, rgba(0, 94, 11, 1) 100%);
+}
+
+#fuego thead {
+    background-color: rgb(173, 0, 0);
+}
+
+#fuego tbody {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 23%, rgba(255, 154, 0, 1) 59%, rgba(245, 255, 0, 1) 100%);
+}
+
+#agua thead {
+    background-color: rgb(13, 41, 165);
+}
+
+#agua tbody {
+    background: rgb(12, 182, 172);
+    background: linear-gradient(180deg, rgba(12, 182, 172, 1) 0%, rgba(42, 0, 255, 1) 100%);
+}
+
+#normal thead {
+    background-color: rgb(48, 48, 48);
+}
+
+#normal tbody {
+    background: rgb(208, 208, 208);
+    background: linear-gradient(180deg, rgba(208, 208, 208, 1) 0%, rgba(94, 94, 94, 1) 100%);
+}
+
+#veneno thead {
+    background-color: rgb(169, 1, 202)
+}
+
+#veneno tbody {
+    background: rgb(241, 81, 255);
+    background: linear-gradient(180deg, rgba(241, 81, 255, 1) 0%, rgba(63, 0, 92, 1) 100%);
+}
+
+#electrico thead {
+    background-color: rgb(238, 183, 2)
+}
+
+#electrico tbody {
+    background: rgb(254, 255, 0);
+    background: linear-gradient(180deg, rgba(254, 255, 0, 1) 0%, rgba(237, 135, 1, 1) 100%);
+}
+
+#tierra thead,
+#roca thead {
+    background-color: rgb(117, 77, 1)
+}
+
+#tierra tbody,
+#roca tbody {
+    background: rgb(182, 85, 0);
+    background: linear-gradient(180deg, rgba(182, 85, 0, 1) 0%, rgba(94, 46, 0, 1) 100%);
+}
+
+#hada thead {
+    background-color: rgb(226, 0, 207)
+}
+
+#hada tbody {
+    background: rgb(252, 128, 255);
+    background: linear-gradient(180deg, rgba(252, 128, 255, 1) 0%, rgba(146, 0, 156, 1) 100%);
+}
+
+#lucha thead {
+    background-color: rgb(133, 133, 133)
+}
+
+#lucha tbody {
+    background: rgb(226, 226, 226);
+    background: linear-gradient(180deg, rgb(226, 226, 226) 44%, rgba(255, 0, 0, 1) 48%, rgba(255, 0, 0, 1) 52%, rgba(226, 226, 226, 1) 56%);
+}
+
+#psiquico thead {
+    background-color: rgb(0, 81, 202)
+}
+
+#psiquico tbody {
+    background: rgb(63, 147, 255);
+    background: linear-gradient(172deg, rgba(63, 147, 255, 1) 0%, rgba(252, 0, 255, 1) 100%);
+}
+
+#fantasma thead {
+    background-color: rgb(67, 0, 94)
+}
+
+#fantasma tbody {
+    background: rgb(54, 0, 85);
+    background: linear-gradient(180deg, rgba(54, 0, 85, 1) 0%, rgba(26, 0, 27, 1) 100%);
+}
+
+#hielo thead {
+    background-color: rgb(0, 195, 255)
+}
+
+#hielo tbody {
+    background: rgb(0, 177, 244);
+    background: linear-gradient(180deg, rgba(0, 177, 244, 1) 0%, rgba(255, 255, 255, 1) 79%);
+}
+
+#dragon thead {
+    background-color: rgb(139, 0, 0)
+}
+
+#dragon tbody {
+    background: rgb(0, 177, 244);
+    background: linear-gradient(180deg, rgba(0, 177, 244, 1) 0%, rgba(255, 0, 0, 1) 100%);
+}
+
+/*formulario*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.contacto,
+.encuesta {
+    background-color: rgb(44, 44, 44);
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.contacto h2,
+.encuesta h2 {
+    text-align: center;
+}
+
+label {
+    margin: 1%;
+    color: rgb(214, 214, 214);
+}
+
+input,
+textarea,
+select,
+button {
+    margin: 2%;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info {
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    padding: 2% 3%;
+}
+
+.info ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.info li a img {
+    border: none;
+    width: 50%;
+}
+
+.encuesta {
+    text-align: justify;
+
+}
+
+.encuesta button {
+    transform: translateX(200%);
+}
+
+/*video*/
+
+video {
+    max-width: 70%;
+}
